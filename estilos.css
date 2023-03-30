@@ -1,0 +1,173 @@
+
+body {
+    font-family: open, sans-serif;
+    margin: 0;
+}
+.fondo {
+    background: linear-gradient(280deg, rgb(178, 131, 152), rgb(246, 245, 245));
+    
+    max-width: 100%;
+    height: auto;
+}
+.grilla {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    padding: 50px 50px 0px 50px;
+}
+.intro {
+    display: block;
+    margin: auto;
+}
+.nombres {
+    font-family: 'Golos Text', sans-serif;
+    font-weight:400;
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+.mititulo {
+    font-family: 'Golos Text', sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    margin-bottom: 20px;
+    
+}
+.sobremi {
+    font-family: 'Golos Text', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    margin-bottom: 20px;
+    
+}
+
+.icono {
+    font-size: 50px;
+    color:rgb(178, 131, 168);
+    padding: 20px 10px 30px 0px;
+    
+}
+.perfil {
+    border-radius: 50%;
+    max-width: 100%;
+    height: auto;
+    border: 3px solid black;
+    height: 200px;
+    width: 200px;
+}
+
+#personal{
+    
+    background:  rgb(178, 131, 168);
+    border-radius: 20px;
+    height: auto;
+    max-width: 100%;
+    padding: 50px;
+    margin: 50px 20px 30px 40px;
+}
+#laboral{
+    background:  rgb(121, 170, 103);
+    border-radius: 20px;
+    height: auto;
+    max-width: 100%;
+    padding: 50px;
+    margin: 50px 20px 30px 40px;
+}
+#habilidades{
+    background:  rgb(207, 203, 128);
+    border-radius: 20px;
+    height: auto;
+    max-width: 100%;
+    padding: 50px;
+    margin: 50px 20px 30px 40px;
+}
+#formacion{
+    background: rgb(94, 110, 195);
+    border-radius: 20px;
+    height: auto;
+    max-width: 100%;
+    padding: 50px;
+    margin: 50px 20px 30px 40px;
+}
+.titulo {
+    
+    font-family: 'Golos Text', sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    margin:0;
+    
+}
+.contenido {
+    font-family: 'Golos Text', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    margin-bottom: 30px;
+    padding:0px;
+    
+
+    
+}
+.interactivo {
+    color:blueviolet;
+    font-size:80px;
+    left: 30px;
+    top: 30px;
+    margin: 20px;
+    padding:15px;
+    margin:0px auto;
+    
+}
+.base {
+    max-width: 100%;
+    height: 20px;
+    margin: 0px;
+}
+.fa-person-dress{
+    color:rgb(178, 131, 168);
+    font-size: 25px;
+    padding: 5px;
+}
+.fa-nutritionix{
+    color:rgb(101, 170, 103);
+    font-size: 25px;
+    padding: 5px;
+}
+.fa-lightbulb{
+    color:rgb(207, 203, 128);
+    font-size: 25px;
+    padding: 5px;
+}
+.fa-book{
+    color:rgb(94, 110, 195);
+    font-size: 25px;
+    padding: 5px;
+}
+#per{
+    background-color: transparent;
+    border:0;
+    color:rgb(178, 131, 168);
+    font-size: 20px;
+}
+#lab{
+    background-color: transparent;
+    border:0;
+    color:rgb(101, 170, 103);
+    font-size: 20px;
+}
+#hab{
+    background-color: transparent;
+    border:0;
+    color:rgb(207, 203, 128);
+    font-size: 20px;
+}
+#for{
+    background-color: transparent;
+    border:0;
+    color:rgb(94, 110, 195);
+    font-size: 20px;
+    
+}
+
+ul {
+    
+    list-style: none;
+}
